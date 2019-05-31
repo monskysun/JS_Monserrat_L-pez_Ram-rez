@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+      <button id="uno">Aromas</button>
+      <button id="dos">Sabores</button>
+      <script>
+      let boton=document.getElementById("uno");
+      let boton2=document.getElementById("dos");
+      let abre = function(){
+        window.location.href = 'json1.php';
+      }
+      let abre2 = function(){
+        window.location.href = 'json2.php';
+      }
+      boton.addEventListener ("click", abre);
+      boton2.addEventListener ("click", abre2);
+      </script>
+
+  </body>
+</html>
